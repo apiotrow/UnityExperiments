@@ -1,5 +1,3 @@
-CrowdSimulation
-===============
 
 Ongoing experiments with procedural stuff in Unity
 
