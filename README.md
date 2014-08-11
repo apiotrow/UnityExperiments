@@ -1,7 +1,7 @@
 CrowdSimulation
 ===============
 
-Ongoing experiments with procedural generation
+Ongoing experiments with procedural stuff in Unity
 
 Bees: https://rawgit.com/apiotrow/UnityExperiments/master/build1/build1.html
 
