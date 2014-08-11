@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Planet.cs">
+    <Files>
+      <File FileName="Assets/Person.cs" Line="9" Column="25" />
+      <File FileName="../Downloads/CMPS179_SU14_G3_AARONPREBETA/Assets/Scripts/Bullet.cs" Line="128" Column="16" />
+      <File FileName="Assets/Planet.cs" Line="52" Column="80" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
