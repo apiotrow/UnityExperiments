@@ -1,10 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Planet.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlanetController.cs">
     <Files>
-      <File FileName="Assets/Person.cs" Line="9" Column="25" />
-      <File FileName="../Downloads/CMPS179_SU14_G3_AARONPREBETA/Assets/Scripts/Bullet.cs" Line="128" Column="16" />
-      <File FileName="Assets/Planet.cs" Line="52" Column="80" />
+      <File FileName="Assets/Plate.cs" Line="71" Column="5" />
+      <File FileName="Assets/Planet.cs" Line="19" Column="26" />
+      <File FileName="../Planetary_Lander/Assets/PlayerController.cs" Line="380" Column="4" />
+      <File FileName="Assets/PlanetController.cs" Line="86" Column="30" />
+      <File FileName="../VoxelArena/Assets/Scripts/PlayerGUI.cs" Line="75" Column="7" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

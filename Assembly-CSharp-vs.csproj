@@ -49,6 +49,7 @@
      <Compile Include="Assets\Person.cs" />
      <Compile Include="Assets\Planet.cs" />
      <Compile Include="Assets\PlanetController.cs" />
+     <Compile Include="Assets\Plate.cs" />
      <Compile Include="Assets\Scripts\BlockPlaceExample.cs" />
      <Compile Include="Assets\Scripts\Chunk.cs" />
      <Compile Include="Assets\Scripts\ColliderExample.cs" />
