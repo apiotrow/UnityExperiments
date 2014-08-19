@@ -9,6 +9,12 @@ public class Plate : MonoBehaviour
 	public GameObject ball;
 	public Quaternion thingy;
 
+	void OnGUI(){
+		if (GUI.Button (new Rect (Screen.width - 200, 0, 100, 20), "R to restart")) {
+			Application.LoadLevel (0);  
+		}
+	}
+
 	void Start ()
 	{
 		ball = GameObject.Find ("Ball");
