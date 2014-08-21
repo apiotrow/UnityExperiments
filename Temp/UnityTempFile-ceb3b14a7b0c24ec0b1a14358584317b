@@ -41,6 +41,7 @@
 -define:UNITY_EDITOR_OSX
 -define:UNITY_TEAM_LICENSE
 -define:UNITY_PRO_LICENSE
+'Assets/MouseOrbitImproved.cs'
 'Assets/Person.cs'
 'Assets/Planet.cs'
 'Assets/PlanetController.cs'
@@ -61,3 +62,4 @@
 'Assets/Scripts/RaycastExample.cs'
 'Assets/Scripts/SmoothFollowCSharp.cs'
 'Assets/Scripts/World.cs'
+'Assets/TheGUI.cs'

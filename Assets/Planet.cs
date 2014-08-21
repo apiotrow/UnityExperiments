@@ -12,8 +12,8 @@ public class Planet : MonoBehaviour {
 
 	void Start () {
 		planetPos = transform.position;
-		person =  GameObject.Find ("Person").GetComponent ("Person") as Person;
-		personPos = person.transform.position;
+//		person =  GameObject.Find ("Person").GetComponent ("Person") as Person;
+//		personPos = person.transform.position;
 		distToPerson = Vector3.Distance (personPos, personPos);
 
 		planetMass = rigidbody.mass;
@@ -23,11 +23,11 @@ public class Planet : MonoBehaviour {
 	void FixedUpdate () {
 
 		//interaction with person
-		planetPos = transform.position;
-		personPos = person.transform.position;
-		personToPlanet = planetPos - personPos;
-
-		person.rigidbody.AddForce (personToPlanet / (planetMass / 500));
+//		planetPos = transform.position;
+//		personPos = person.transform.position;
+//		personToPlanet = planetPos - personPos;
+//
+//		person.rigidbody.AddForce (personToPlanet / (planetMass / 500));
 
 	}
 

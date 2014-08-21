@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\MouseOrbitImproved.cs" />
      <Compile Include="Assets\Person.cs" />
      <Compile Include="Assets\Planet.cs" />
      <Compile Include="Assets\PlanetController.cs" />
@@ -66,6 +67,7 @@
      <Compile Include="Assets\Scripts\RaycastExample.cs" />
      <Compile Include="Assets\Scripts\SmoothFollowCSharp.cs" />
      <Compile Include="Assets\Scripts\World.cs" />
+     <Compile Include="Assets\TheGUI.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>/Users/aaronpiotrowski/CrowdSimulation/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
