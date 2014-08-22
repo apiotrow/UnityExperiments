@@ -91,25 +91,47 @@ public class TheGUI : MonoBehaviour {
 
 		//trails on/off title
 		thisbox += 50;
-		text = "Trails";
+		text = "All have trails";
 //		string tochangekey = "trails";
 //		booleanBox (text, thisbox, ref pc.trail.enabled, tochangekey);
 		GUI.Box (new Rect (Screen.width - 100, thisbox, 100, 25), text);
 		//trails on/off change
 		thisbox += 20;
-		if (GUI.Button (new Rect (Screen.width - 50, thisbox, 50, 20), "on")) {
+		if (GUI.Button (new Rect (Screen.width - 50, thisbox, 50, 20), "True")) {
 			PlayerPrefs.SetInt("trails", 1);
-			pc.trail.enabled = true;
+			//pc.trail.enabled = true;
 		}
-		if (GUI.Button (new Rect (Screen.width - 100, thisbox, 50, 20), "off")) {
+		if (GUI.Button (new Rect (Screen.width - 100, thisbox, 50, 20), "False")) {
 			PlayerPrefs.SetInt("trails", 0);
-			pc.trail.enabled = false;
+			//pc.trail.enabled = false;
 		}
 		//trails on/off output
 //		thisbox += 20;
 //		text = "Trails: " + pc.trail.enabled;
 //		GUI.Box (new Rect (Screen.width - 100, thisbox, 100, 20), text);
-		
+
+//		//Debug.Log (pc.trail.enabled);
+		if (PlayerPrefs.GetInt("trails", 0) == 0) {
+			//go through trails
+			int leftOfBox = thisbox - 20;;
+			text = "Planet with trail";
+			GUI.Box (new Rect (Screen.width - 200, leftOfBox, 100, 25), text);
+			//got through trails buttons
+			leftOfBox += 20;
+			if (GUI.Button (new Rect (Screen.width - 200, leftOfBox, 50, 20), "-")) {
+				if (pc.trailPlanet > 0)
+					pc.trailPlanet -= 1;
+			
+			}
+			if (GUI.Button (new Rect (Screen.width - 150, leftOfBox, 50, 20), "+")) {
+				if (pc.trailPlanet < (pc.planets.Length - 1))
+					pc.trailPlanet += 1;
+			}
+			//collisions on/off output
+			leftOfBox += 20;
+			text = "" + pc.trailPlanet;
+			GUI.Box (new Rect (Screen.width - 200, leftOfBox, 100, 20), text);
+		}
 		
 		//mass range title
 		thisbox += 50;
@@ -175,67 +197,67 @@ public class TheGUI : MonoBehaviour {
 		float smallChangeAmount = 10;
 		GUI.Box (new Rect (Screen.width - 100, thisbox, 100, 25), text);
 		//speed range min + -
-		thisbox += 20;
-		if (GUI.Button (new Rect (Screen.width - 25, thisbox, 25, 20), "+")) {
-			pc.speedMax += smallChangeAmount;
-			PlayerPrefs.SetFloat("speedMax", pc.speedMax);
-		}
-		if (GUI.Button (new Rect (Screen.width - 50, thisbox, 25, 20), "-")) {
-			pc.speedMax -= smallChangeAmount;
-			if (pc.speedMax <= (pc.speedMin + 1)) pc.speedMax = (pc.speedMin + 1);
-			PlayerPrefs.SetFloat("speedMax", pc.speedMax);
-		}
+//		thisbox += 20;
+//		if (GUI.Button (new Rect (Screen.width - 25, thisbox, 25, 20), "+")) {
+//			pc.speedMax += smallChangeAmount;
+//			PlayerPrefs.SetFloat("speedMax", pc.speedMax);
+//		}
+//		if (GUI.Button (new Rect (Screen.width - 50, thisbox, 25, 20), "-")) {
+//			pc.speedMax -= smallChangeAmount;
+//			if (pc.speedMax <= (pc.speedMin + 1)) pc.speedMax = (pc.speedMin + 1);
+//			PlayerPrefs.SetFloat("speedMax", pc.speedMax);
+//		}
 		//speed range max + -
-		if (GUI.Button (new Rect (Screen.width - 75, thisbox, 25, 20), "+")) {
-			pc.speedMin += smallChangeAmount;
-			if (pc.speedMin >= (pc.speedMax - 1)) pc.speedMin = (pc.speedMax - 1);
-			PlayerPrefs.SetFloat("speedMin", pc.speedMin);
-		}
-		if (GUI.Button (new Rect (Screen.width - 100, thisbox, 25, 20), "-")) {
-			pc.speedMin -= smallChangeAmount;
-			if(pc.speedMin < 1) pc.speedMin = 1;
-			PlayerPrefs.SetFloat("speedMin", pc.speedMin);
-		}
+//		if (GUI.Button (new Rect (Screen.width - 75, thisbox, 25, 20), "+")) {
+//			pc.speedMin += smallChangeAmount;
+//			if (pc.speedMin >= (pc.speedMax - 1)) pc.speedMin = (pc.speedMax - 1);
+//			PlayerPrefs.SetFloat("speedMin", pc.speedMin);
+//		}
+//		if (GUI.Button (new Rect (Screen.width - 100, thisbox, 25, 20), "-")) {
+//			pc.speedMin -= smallChangeAmount;
+//			if(pc.speedMin < 1) pc.speedMin = 1;
+//			PlayerPrefs.SetFloat("speedMin", pc.speedMin);
+//		}
 		//speed range min ++ --
 		thisbox += 20;
-		if (GUI.Button (new Rect (Screen.width - 25, thisbox, 25, 20), "++")) {
+		if (GUI.Button (new Rect (Screen.width - 25, thisbox, 25, 20), "+")) {
 			pc.speedMax += smallChangeAmount * 10;
 			PlayerPrefs.SetFloat("speedMax", pc.speedMax);
 		}
-		if (GUI.Button (new Rect (Screen.width - 50, thisbox, 25, 20), "--")) {
+		if (GUI.Button (new Rect (Screen.width - 50, thisbox, 25, 20), "-")) {
 			pc.speedMax -= smallChangeAmount * 10;
 			if (pc.speedMax <= (pc.speedMin + 1)) pc.speedMax = (pc.speedMin + 1);
 			PlayerPrefs.SetFloat("speedMax", pc.speedMax);
 		}
 		//speed range max ++ --
-		if (GUI.Button (new Rect (Screen.width - 75, thisbox, 25, 20), "++")) {
+		if (GUI.Button (new Rect (Screen.width - 75, thisbox, 25, 20), "+")) {
 			pc.speedMin += smallChangeAmount * 10;
 			if (pc.speedMin >= (pc.speedMax - 1)) pc.speedMin = (pc.speedMax - 1);
 			PlayerPrefs.SetFloat("speedMin", pc.speedMin);
 		}
-		if (GUI.Button (new Rect (Screen.width - 100, thisbox, 25, 20), "--")) {
+		if (GUI.Button (new Rect (Screen.width - 100, thisbox, 25, 20), "-")) {
 			pc.speedMin -= smallChangeAmount * 10;
 			if(pc.speedMin < 1) pc.speedMin = 1;
 			PlayerPrefs.SetFloat("speedMin", pc.speedMin);
 		}
 		//speed range min +++ ---
 		thisbox += 20;
-		if (GUI.Button (new Rect (Screen.width - 25, thisbox, 25, 20), "+++")) {
+		if (GUI.Button (new Rect (Screen.width - 25, thisbox, 25, 20), "++")) {
 			pc.speedMax += smallChangeAmount * 100;
 			PlayerPrefs.SetFloat("speedMax", pc.speedMax);
 		}
-		if (GUI.Button (new Rect (Screen.width - 50, thisbox, 25, 20), "---")) {
+		if (GUI.Button (new Rect (Screen.width - 50, thisbox, 25, 20), "--")) {
 			pc.speedMax -= smallChangeAmount * 100;
 			if (pc.speedMax <= (pc.speedMin + 1)) pc.speedMax = (pc.speedMin + 1);
 			PlayerPrefs.SetFloat("speedMax", pc.speedMax);
 		}
 		//speed range max +++ ---
-		if (GUI.Button (new Rect (Screen.width - 75, thisbox, 25, 20), "+++")) {
+		if (GUI.Button (new Rect (Screen.width - 75, thisbox, 25, 20), "++")) {
 			pc.speedMin += smallChangeAmount * 100;
 			if (pc.speedMin >= (pc.speedMax - 1)) pc.speedMin = (pc.speedMax - 1);
 			PlayerPrefs.SetFloat("speedMin", pc.speedMin);
 		}
-		if (GUI.Button (new Rect (Screen.width - 100, thisbox, 25, 20), "---")) {
+		if (GUI.Button (new Rect (Screen.width - 100, thisbox, 25, 20), "--")) {
 			pc.speedMin -= smallChangeAmount * 100;
 			if(pc.speedMin < 1) pc.speedMin = 1;
 			PlayerPrefs.SetFloat("speedMin", pc.speedMin);
@@ -367,25 +389,8 @@ public class TheGUI : MonoBehaviour {
 
 
 
-		//go through trails
-		thisbox += 50;
-		text = "Planet with trail";
-		GUI.Box (new Rect (0, thisbox, 100, 25), text);
-		//got through trails buttons
-		thisbox += 20;
-		if (GUI.Button (new Rect (0, thisbox, 50, 20), "-")) {
-			if(pc.trailPlanet > 0)
-				pc.trailPlanet -= 1;
 
-		}
-		if (GUI.Button (new Rect (50, thisbox, 50, 20), "+")) {
-			if(pc.trailPlanet < (pc.planets.Length - 1))
-				pc.trailPlanet += 1;
-		}
-		//collisions on/off output
-		thisbox += 20;
-		text = "" + pc.trailPlanet;
-		GUI.Box (new Rect (0, thisbox, 100, 20), text);
+
 
 	}
 }
