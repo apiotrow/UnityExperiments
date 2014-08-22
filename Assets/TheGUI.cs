@@ -83,7 +83,7 @@ public class TheGUI : MonoBehaviour {
 		}
 		//# planets output
 		thisbox += 20;
-		text = "N:" + (Mathf.Floor (pc.numPlanets)).ToString ();
+		text = "N:" + (Mathf.Floor (pc.numPlanets - 1)).ToString ();
 		GUI.Box (new Rect (Screen.width - 100, thisbox, 100, 20), text);
 		
 
@@ -171,7 +171,7 @@ public class TheGUI : MonoBehaviour {
 
 		//speed range title
 		thisbox += 50;
-		text = "speed Range";
+		text = "Speed Range";
 		float smallChangeAmount = 10;
 		GUI.Box (new Rect (Screen.width - 100, thisbox, 100, 25), text);
 		//speed range min + -
@@ -218,6 +218,28 @@ public class TheGUI : MonoBehaviour {
 			if(pc.speedMin < 1) pc.speedMin = 1;
 			PlayerPrefs.SetFloat("speedMin", pc.speedMin);
 		}
+		//speed range min +++ ---
+		thisbox += 20;
+		if (GUI.Button (new Rect (Screen.width - 25, thisbox, 25, 20), "+++")) {
+			pc.speedMax += smallChangeAmount * 100;
+			PlayerPrefs.SetFloat("speedMax", pc.speedMax);
+		}
+		if (GUI.Button (new Rect (Screen.width - 50, thisbox, 25, 20), "---")) {
+			pc.speedMax -= smallChangeAmount * 100;
+			if (pc.speedMax <= (pc.speedMin + 1)) pc.speedMax = (pc.speedMin + 1);
+			PlayerPrefs.SetFloat("speedMax", pc.speedMax);
+		}
+		//speed range max +++ ---
+		if (GUI.Button (new Rect (Screen.width - 75, thisbox, 25, 20), "+++")) {
+			pc.speedMin += smallChangeAmount * 100;
+			if (pc.speedMin >= (pc.speedMax - 1)) pc.speedMin = (pc.speedMax - 1);
+			PlayerPrefs.SetFloat("speedMin", pc.speedMin);
+		}
+		if (GUI.Button (new Rect (Screen.width - 100, thisbox, 25, 20), "---")) {
+			pc.speedMin -= smallChangeAmount * 100;
+			if(pc.speedMin < 1) pc.speedMin = 1;
+			PlayerPrefs.SetFloat("speedMin", pc.speedMin);
+		}
 		//speed range max and min outputs
 		thisbox += 20;
 		text = "" + pc.speedMax;
@@ -231,7 +253,7 @@ public class TheGUI : MonoBehaviour {
 		//spawn range title
 		thisbox += 50;
 		text = "Spawn Range";
-		smallChangeAmount = 100f;
+		smallChangeAmount = 500f;
 		GUI.Box (new Rect (Screen.width - 100, thisbox, 100, 25), text);
 		//spawn range min + -
 		thisbox += 20;
@@ -307,6 +329,63 @@ public class TheGUI : MonoBehaviour {
 		GUI.Box (new Rect (Screen.width - 50, thisbox, 50, 20), text);
 		text = "" + pc.sizeMin;
 		GUI.Box (new Rect (Screen.width - 100, thisbox, 50, 20), text);
+
+
+
+
+
+
+
+
+
+
+
+
+		/*
+		 * 
+		 * LEFT SIDE OF SCREEN
+		 * 
+		 */
+		//collisions on/off title
+		thisbox = 0;
+		text = "Planet Collision";
+		GUI.Box (new Rect (0, thisbox, 100, 25), text);
+		//trails on/off change
+		thisbox += 20;
+		if (GUI.Button (new Rect (0, thisbox, 50, 20), "on")) {
+			PlayerPrefs.SetInt("planCollide", 1);
+			pc.planCollide = true;
+		}
+		if (GUI.Button (new Rect (50, thisbox, 50, 20), "off")) {
+			PlayerPrefs.SetInt("planCollide", 0);
+			pc.planCollide = false;
+		}
+		//collisions on/off output
+		thisbox += 20;
+		text = "" + pc.planCollide;
+		GUI.Box (new Rect (0, thisbox, 100, 20), text);
+
+
+
+		//go through trails
+		thisbox += 50;
+		text = "Planet with trail";
+		GUI.Box (new Rect (0, thisbox, 100, 25), text);
+		//got through trails buttons
+		thisbox += 20;
+		if (GUI.Button (new Rect (0, thisbox, 50, 20), "-")) {
+			if(pc.trailPlanet > 0)
+				pc.trailPlanet -= 1;
+
+		}
+		if (GUI.Button (new Rect (50, thisbox, 50, 20), "+")) {
+			if(pc.trailPlanet < (pc.planets.Length - 1))
+				pc.trailPlanet += 1;
+		}
+		//collisions on/off output
+		thisbox += 20;
+		text = "" + pc.trailPlanet;
+		GUI.Box (new Rect (0, thisbox, 100, 20), text);
 
 	}
 }
