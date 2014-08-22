@@ -130,17 +130,21 @@ public class PlanetController : MonoBehaviour {
 			Application.LoadLevel (0); 
 		}
 
+
 		for(int i = 0; i < planets.Length; i++){
 			trail = planets[i].GetComponent<TrailRenderer>();
 			
 			if (PlayerPrefs.GetInt ("trails") == 0){
-				trail.enabled = false;
+				//trail.enabled = false;
+				trail.startWidth = 0f;
+				trail.endWidth = 0f;
 				if (i == trailPlanet) {
 					trail.enabled = true;
 					trail.startWidth = planets[i].transform.localScale.x * 3f;
 				}else {
-					trail.enabled = false;
-
+					//trail.enabled = false;
+					trail.startWidth = 0f;
+					trail.endWidth = 0f;
 				}
 			}else if(PlayerPrefs.GetInt ("trails") == 1){
 				trail.enabled = true;
