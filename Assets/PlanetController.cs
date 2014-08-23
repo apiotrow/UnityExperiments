@@ -37,16 +37,20 @@ public class PlanetController : MonoBehaviour {
 		planets = new Planet[numPlanets];
 
 		planets[0] = GameObject.Find ("Sun").GetComponent ("Planet") as Planet;
-		planets [0].renderer.material.color = Color.yellow;
+		planets[0].renderer.material.color = Color.yellow;
+
+//		planets[1] = GameObject.Find ("Sun2").GetComponent ("Planet") as Planet;
+//		planets[1].renderer.material.color = Color.yellow;
 
 		//planets[1] = GameObject.Find ("Planet").GetComponent ("Planet") as Planet;
 
 		sourcePlanet = GameObject.Find ("Planet").GetComponent ("Planet") as Planet;
 
-		//toggle all trails on/off
-		//give trails different colors
+
 		//make thickness of trails change with zoom level
 		//time trail lasts
+		//scale everything down (change mass multipliers)
+		//see why increased mass makes them turn faster
 
 
 		if (planCollide)
@@ -65,14 +69,16 @@ public class PlanetController : MonoBehaviour {
 
 		maxrange = PlayerPrefs.GetFloat ("maxrange", 300f);
 
-		massMax = PlayerPrefs.GetFloat ("massMax", 1f);
-		massMin = PlayerPrefs.GetFloat ("massMin", 10f);
+		massMax = PlayerPrefs.GetFloat ("massMax", 30f);
+		massMin = PlayerPrefs.GetFloat ("massMin", 1f);
 		
-		speedMax = PlayerPrefs.GetFloat ("speedMax", 1f);
-		speedMin = PlayerPrefs.GetFloat ("speedMin", 100f);
+		speedMax = PlayerPrefs.GetFloat ("speedMax", 4000f);
+		speedMin = PlayerPrefs.GetFloat ("speedMin", 1f);
 
 		sizeMin = PlayerPrefs.GetFloat ("sizeMin", 1f);;
-		sizeMax = PlayerPrefs.GetFloat ("sizeMax", 100f);;
+		sizeMax = PlayerPrefs.GetFloat ("sizeMax", 40f);;
+
+		PlayerPrefs.GetInt ("trails", 1);
 
 		for(int i = 1; i < planets.Length; i++){
 			Vector3 randLoc = new Vector3(Random.Range (-maxrange,maxrange), Random.Range (-maxrange,maxrange), Random.Range (-maxrange,maxrange));

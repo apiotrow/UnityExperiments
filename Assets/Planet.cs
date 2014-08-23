@@ -14,7 +14,7 @@ public class Planet : MonoBehaviour {
 		planetPos = transform.position;
 //		person =  GameObject.Find ("Person").GetComponent ("Person") as Person;
 //		personPos = person.transform.position;
-		distToPerson = Vector3.Distance (personPos, personPos);
+//		distToPerson = Vector3.Distance (personPos, personPos);
 
 		planetMass = rigidbody.mass;
 	}

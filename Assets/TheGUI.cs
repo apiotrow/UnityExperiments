@@ -110,13 +110,13 @@ public class TheGUI : MonoBehaviour {
 //		text = "Trails: " + pc.trail.enabled;
 //		GUI.Box (new Rect (Screen.width - 100, thisbox, 100, 20), text);
 
-//		//Debug.Log (pc.trail.enabled);
+		//cycle through trails
 		if (PlayerPrefs.GetInt("trails", 0) == 0) {
 			//go through trails
 			int leftOfBox = thisbox - 20;;
 			text = "Planet with trail";
 			GUI.Box (new Rect (Screen.width - 200, leftOfBox, 100, 25), text);
-			//got through trails buttons
+			//cycle through trails buttons
 			leftOfBox += 20;
 			if (GUI.Button (new Rect (Screen.width - 200, leftOfBox, 50, 20), "-")) {
 				if (pc.trailPlanet > 0)
@@ -127,7 +127,7 @@ public class TheGUI : MonoBehaviour {
 				if (pc.trailPlanet < (pc.planets.Length - 1))
 					pc.trailPlanet += 1;
 			}
-			//collisions on/off output
+			//cycle through trails output
 			leftOfBox += 20;
 			text = "" + pc.trailPlanet;
 			GUI.Box (new Rect (Screen.width - 200, leftOfBox, 100, 20), text);
