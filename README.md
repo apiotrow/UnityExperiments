@@ -8,6 +8,6 @@ Sky Serpent: https://rawgit.com/apiotrow/UnityExperiments/master/build-skyserpen
 
 Block Rain: https://rawgit.com/apiotrow/UnityExperiments/master/blockrain/blockrain.html
 
-Orbit: https://rawgit.com/apiotrow/UnityExperiments/master/gravity/gravity.html
+Gravity: https://rawgit.com/apiotrow/UnityExperiments/master/gravity1.2/gravity1.2.html
 
 Balance: https://rawgit.com/apiotrow/UnityExperiments/master/balance/balance.html
