@@ -1,12 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlanetController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
     <Files>
-      <File FileName="Assets/Planet.cs" Line="26" Column="5" />
-      <File FileName="../Planetary_Lander/Assets/PlayerController.cs" Line="1070" Column="16" />
-      <File FileName="Assets/PlanetController.cs" Line="103" Column="24" />
-      <File FileName="../VoxelArena/Assets/Scripts/PlayerGUI.cs" Line="772" Column="3" />
-      <File FileName="Assets/TheGUI.cs" Line="174" Column="12" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="14" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
