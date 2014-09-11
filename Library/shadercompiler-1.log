@@ -1,37 +1,901 @@
 Base path: /Applications/Unity/Unity.app/Contents
 Pipe name: \\.\pipe\UnityShaderCompiler-1--1597574744
 Cmd: getPlatforms
+Cmd: compileSnippet
+  api=0 type=0 insize=2798 outsize=854 kw=SPOT ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2798 outsize=864 kw=SPOT ok=1
 Cmd: preprocess
-  insize=447 outsize=447 ok=1
+  insize=1584 outsize=2245 ok=1
 Cmd: preprocess
-  insize=1048 outsize=886 ok=1
-Cmd: compileSnippet
-  api=0 type=0 insize=4822 outsize=919 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=4822 outsize=445 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=0 type=0 insize=2798 outsize=817 kw=POINT ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=2798 outsize=666 kw=POINT ok=1
+  insize=1423 outsize=2190 ok=1
 Cmd: preprocess
-  insize=1576 outsize=991 ok=1
+  insize=9238 outsize=2329 ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=867 outsize=635 kw= ok=1
+  api=0 type=0 insize=6564 outsize=328 kw= ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=867 outsize=84 kw= ok=1
+  api=0 type=1 insize=6564 outsize=649 kw= ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=834 outsize=635 kw= ok=1
+  api=0 type=0 insize=6560 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=6560 outsize=908 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=6560 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=6560 outsize=749 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=6560 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=6560 outsize=749 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=6563 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=6563 outsize=887 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=6563 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=6563 outsize=618 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=6572 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=6572 outsize=420 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=6577 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=6577 outsize=524 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=6570 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=6570 outsize=292 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=6568 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=6568 outsize=689 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=6575 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=6575 outsize=660 kw= ok=1
 Cmd: preprocess
-  insize=1500 outsize=667 ok=1
+  insize=11291 outsize=719 ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=1135 outsize=547 kw= ok=1
+  api=0 type=0 insize=10605 outsize=856 kw= ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=1135 outsize=333 kw= ok=1
+  api=0 type=1 insize=10605 outsize=6 kw= ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=2798 outsize=560 kw=DIRECTIONAL ok=1
+  api=0 type=0 insize=10628 outsize=5904 kw= ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=2798 outsize=428 kw=DIRECTIONAL ok=1
+  api=0 type=1 insize=10628 outsize=6 kw= ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=2798 outsize=775 kw=DIRECTIONAL_COOKIE ok=1
+  api=0 type=0 insize=10627 outsize=5890 kw= ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=2798 outsize=496 kw=DIRECTIONAL_COOKIE ok=1
+  api=0 type=1 insize=10627 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=1220 outsize=457 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1008 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1008 outsize=259 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1007 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1007 outsize=257 kw= ok=1
+Cmd: preprocess
+  insize=9695 outsize=920 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=8984 outsize=623 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=8984 outsize=1059 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=8989 outsize=646 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=8989 outsize=1183 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=9009 outsize=379 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=9009 outsize=1721 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=9004 outsize=379 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=9004 outsize=1785 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=9009 outsize=615 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=9009 outsize=426 kw= ok=1
+Cmd: preprocess
+  insize=1692 outsize=351 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1642 outsize=584 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1642 outsize=817 kw= ok=1
+Cmd: preprocess
+  insize=925 outsize=354 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=875 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=875 outsize=456 kw= ok=1
+Cmd: preprocess
+  insize=1013 outsize=316 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1002 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1002 outsize=315 kw= ok=1
+Cmd: preprocess
+  insize=1993 outsize=486 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1809 outsize=428 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1809 outsize=732 kw= ok=1
+Cmd: preprocess
+  insize=1298 outsize=412 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1191 outsize=375 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1191 outsize=495 kw= ok=1
+Cmd: preprocess
+  insize=3630 outsize=711 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3154 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3154 outsize=562 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3153 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3153 outsize=439 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3198 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3198 outsize=1916 kw= ok=1
+Cmd: preprocess
+  insize=1242 outsize=409 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1138 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1138 outsize=679 kw= ok=1
+Cmd: preprocess
+  insize=6809 outsize=797 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2033 outsize=425 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2033 outsize=4830 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2298 outsize=425 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2298 outsize=7921 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2803 outsize=425 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2803 outsize=14055 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3079 outsize=369 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3079 outsize=3794 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2019 outsize=530 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2019 outsize=304 kw= ok=1
+Cmd: preprocess
+  insize=1180 outsize=314 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1171 outsize=604 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1171 outsize=466 kw= ok=1
+Cmd: preprocess
+  insize=2658 outsize=774 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1987 outsize=375 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1987 outsize=332 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1985 outsize=375 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1985 outsize=256 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1998 outsize=561 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1998 outsize=402 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1996 outsize=375 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1996 outsize=213 kw= ok=1
+Cmd: preprocess
+  insize=975 outsize=305 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=975 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=975 outsize=366 kw= ok=1
+Cmd: preprocess
+  insize=1384 outsize=384 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1302 outsize=558 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1302 outsize=472 kw= ok=1
+Cmd: preprocess
+  insize=1427 outsize=347 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1386 outsize=971 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1386 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=1716 outsize=728 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1294 outsize=630 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1294 outsize=402 kw= ok=1
+Cmd: preprocess
+  insize=1410 outsize=346 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1366 outsize=584 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1366 outsize=453 kw= ok=1
+Cmd: preprocess
+  insize=1275 outsize=329 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1251 outsize=375 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1251 outsize=515 kw= ok=1
+Cmd: preprocess
+  insize=2313 outsize=644 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1975 outsize=412 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1975 outsize=1137 kw= ok=1
+Cmd: preprocess
+  insize=972 outsize=271 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1001 outsize=355 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1001 outsize=541 kw= ok=1
+Cmd: preprocess
+  insize=794 outsize=320 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=776 outsize=428 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=776 outsize=408 kw= ok=1
+Cmd: preprocess
+  insize=6471 outsize=998 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=5451 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=5451 outsize=213 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=5459 outsize=555 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=5459 outsize=491 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=5463 outsize=468 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=5463 outsize=942 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=5464 outsize=463 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=5464 outsize=942 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=5468 outsize=708 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=5468 outsize=726 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=5470 outsize=708 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=5470 outsize=726 kw= ok=1
+Cmd: preprocess
+  insize=32639 outsize=273 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=32668 outsize=8890 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=32668 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=1223 outsize=260 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1265 outsize=430 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1265 outsize=631 kw= ok=1
+Cmd: preprocess
+  insize=3606 outsize=705 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2934 outsize=521 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2934 outsize=725 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2925 outsize=521 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2925 outsize=505 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2924 outsize=521 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2924 outsize=544 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2936 outsize=521 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2936 outsize=705 kw= ok=1
+Cmd: preprocess
+  insize=1006 outsize=248 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1059 outsize=925 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1059 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=5407 outsize=1803 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3253 outsize=375 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3253 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3251 outsize=375 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3251 outsize=256 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3267 outsize=609 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3267 outsize=426 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3259 outsize=375 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3259 outsize=213 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3259 outsize=375 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3259 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3256 outsize=375 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3256 outsize=256 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3268 outsize=609 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3268 outsize=402 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3261 outsize=375 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3261 outsize=214 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3254 outsize=375 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3254 outsize=127 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3258 outsize=375 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3258 outsize=197 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3253 outsize=375 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3253 outsize=133 kw= ok=1
+Cmd: preprocess
+  insize=13848 outsize=2064 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=11209 outsize=1205 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=11209 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=11201 outsize=573 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=11201 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=11209 outsize=1763 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=11209 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=11215 outsize=3640 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=11215 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=11225 outsize=3130 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=11225 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=11212 outsize=714 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=11212 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=11211 outsize=1737 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=11211 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=11217 outsize=3902 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=11217 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=1045 outsize=358 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=992 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=992 outsize=426 kw= ok=1
+Cmd: preprocess
+  insize=6309 outsize=751 ok=1
+Cmd: preprocess
+  insize=2978 outsize=784 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2245 outsize=510 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2245 outsize=256 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2247 outsize=510 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2247 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2249 outsize=510 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2249 outsize=268 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2248 outsize=510 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2248 outsize=603 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2251 outsize=510 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2251 outsize=245 kw= ok=1
+Cmd: preprocess
+  insize=11465 outsize=2629 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=8625 outsize=3208 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=8625 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=8630 outsize=2008 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=8630 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=8629 outsize=523 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=8629 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=8634 outsize=1040 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=8634 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=8633 outsize=1172 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=8633 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=984 outsize=438 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=848 outsize=428 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=848 outsize=224 kw= ok=1
+Cmd: preprocess
+  insize=13865 outsize=2635 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10278 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10278 outsize=236 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10278 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10278 outsize=540 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10278 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10278 outsize=567 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10261 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10261 outsize=333 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10280 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10280 outsize=358 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10261 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10261 outsize=396 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10306 outsize=478 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10306 outsize=707 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10260 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10260 outsize=127 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10264 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10264 outsize=133 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10286 outsize=1085 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10286 outsize=1198 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10280 outsize=1085 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10280 outsize=1251 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10286 outsize=1085 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10286 outsize=1198 kw= ok=1
+Cmd: preprocess
+  insize=1960 outsize=490 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1746 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1746 outsize=603 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1759 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1759 outsize=643 kw= ok=1
+Cmd: preprocess
+  insize=1699 outsize=302 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1702 outsize=695 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1702 outsize=994 kw= ok=1
+Cmd: preprocess
+  insize=27359 outsize=4723 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19335 outsize=823 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19335 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19342 outsize=3032 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19342 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19346 outsize=4208 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19346 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19325 outsize=426 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19325 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19341 outsize=818 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19341 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19328 outsize=1652 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19328 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19339 outsize=1490 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19339 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19335 outsize=575 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19335 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19345 outsize=841 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19345 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19338 outsize=731 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19338 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19345 outsize=909 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19345 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19333 outsize=3014 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19333 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19342 outsize=2622 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19342 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19329 outsize=941 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19329 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19344 outsize=597 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19344 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19334 outsize=753 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19334 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19327 outsize=677 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19327 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19335 outsize=3521 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19335 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19343 outsize=3402 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19343 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19353 outsize=3429 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19353 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19331 outsize=549 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19331 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19333 outsize=1652 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19333 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=19350 outsize=426 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=19350 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=4118 outsize=553 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3765 outsize=561 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3765 outsize=1080 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3778 outsize=561 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3778 outsize=545 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3769 outsize=561 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3769 outsize=781 kw= ok=1
+Cmd: preprocess
+  insize=2281 outsize=1209 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1317 outsize=766 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1317 outsize=518 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1014 outsize=766 kw= ok=1
+Cmd: preprocess
+  insize=1744 outsize=296 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1749 outsize=671 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1749 outsize=1369 kw= ok=1
+Cmd: preprocess
+  insize=1033 outsize=351 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=984 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=984 outsize=471 kw= ok=1
+Cmd: preprocess
+  insize=1134 outsize=458 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=951 outsize=332 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=951 outsize=253 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=957 outsize=332 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=957 outsize=370 kw= ok=1
+Cmd: preprocess
+  insize=742 outsize=267 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=775 outsize=428 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=775 outsize=312 kw= ok=1
+Cmd: preprocess
+  insize=5863 outsize=873 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4952 outsize=618 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4952 outsize=805 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4955 outsize=618 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4955 outsize=591 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4959 outsize=618 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4959 outsize=633 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4968 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4968 outsize=304 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4949 outsize=618 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4949 outsize=805 kw= ok=1
+Cmd: preprocess
+  insize=5662 outsize=758 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4698 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4698 outsize=296 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4703 outsize=753 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4703 outsize=569 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4713 outsize=757 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4713 outsize=852 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4708 outsize=757 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4708 outsize=714 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4714 outsize=691 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4714 outsize=994 kw= ok=1
+Cmd: preprocess
+  insize=590 outsize=357 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=532 outsize=428 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=532 outsize=332 kw= ok=1
+Cmd: preprocess
+  insize=7288 outsize=926 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=5703 outsize=452 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=5703 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=5703 outsize=501 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=5703 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=5697 outsize=2686 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=5697 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=5696 outsize=2735 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=5696 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=5699 outsize=2810 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=5699 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=5699 outsize=2850 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=5699 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=5701 outsize=601 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=5701 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=32649 outsize=273 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=32678 outsize=8819 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=32678 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=5299 outsize=1741 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3862 outsize=3861 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3862 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=6804 outsize=255 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=6851 outsize=3133 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=6851 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=4539 outsize=555 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4192 outsize=3355 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4192 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4197 outsize=2952 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4197 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=4868 outsize=1016 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3836 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3836 outsize=330 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3844 outsize=435 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3844 outsize=719 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3842 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3842 outsize=638 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3844 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3844 outsize=678 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3834 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3834 outsize=270 kw= ok=1
+Cmd: preprocess
+  insize=5767 outsize=1268 ok=1
+Cmd: preprocess
+  insize=785 outsize=304 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=783 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=783 outsize=158 kw= ok=1
+Cmd: preprocess
+  insize=725 outsize=317 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=710 outsize=428 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=710 outsize=338 kw= ok=1
+Cmd: preprocess
+  insize=3940 outsize=649 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3333 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3333 outsize=368 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3341 outsize=753 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3341 outsize=569 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3350 outsize=741 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3350 outsize=729 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3345 outsize=741 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3345 outsize=714 kw= ok=1
+Cmd: preprocess
+  insize=880 outsize=301 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=884 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=884 outsize=338 kw= ok=1
+Cmd: preprocess
+  insize=1346 outsize=297 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1354 outsize=618 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1354 outsize=787 kw= ok=1
+Cmd: preprocess
+  insize=2157 outsize=982 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=912 outsize=365 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=912 outsize=200 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=867 outsize=365 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=867 outsize=133 kw= ok=1
+Cmd: preprocess
+  insize=5327 outsize=775 ok=1
+Cmd: preprocess
+  insize=1087 outsize=489 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=900 outsize=468 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=900 outsize=269 kw= ok=1
+Cmd: preprocess
+  insize=1220 outsize=387 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1136 outsize=435 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1136 outsize=719 kw= ok=1
+Cmd: preprocess
+  insize=581 outsize=259 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=624 outsize=281 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=624 outsize=127 kw= ok=1
+Cmd: preprocess
+  insize=731 outsize=314 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=721 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=721 outsize=197 kw= ok=1
+Cmd: preprocess
+  insize=5293 outsize=886 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4442 outsize=555 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4442 outsize=402 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4447 outsize=468 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4447 outsize=942 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4448 outsize=463 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4448 outsize=942 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4452 outsize=708 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4452 outsize=726 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4453 outsize=708 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4453 outsize=726 kw= ok=1
+Cmd: preprocess
+  insize=1734 outsize=683 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1353 outsize=762 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1353 outsize=442 kw= ok=1
