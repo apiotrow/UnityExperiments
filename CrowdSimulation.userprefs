@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlanetController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Toon Shading/Sources/Shaders/Toony-BasicOutline.shader">
     <Files>
       <File FileName="Assets/Scripts/PlayerController.cs" Line="1" Column="1" />
-      <File FileName="Assets/PlanetController.cs" Line="99" Column="7" />
+      <File FileName="Assets/PlanetController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Toon Shading/Sources/Shaders/Toony-BasicOutline.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
