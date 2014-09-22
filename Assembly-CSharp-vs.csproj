@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ConcController.cs" />
      <Compile Include="Assets\MouseOrbitImproved.cs" />
      <Compile Include="Assets\Person.cs" />
      <Compile Include="Assets\Planet.cs" />
@@ -67,6 +68,7 @@
      <Compile Include="Assets\Scripts\PolygonGenerator.cs" />
      <Compile Include="Assets\Scripts\RaycastExample.cs" />
      <Compile Include="Assets\Scripts\SmoothFollowCSharp.cs" />
+     <Compile Include="Assets\Scripts\ThirdPersonControllerCS.cs" />
      <Compile Include="Assets\Scripts\World.cs" />
      <Compile Include="Assets\TheGUI.cs" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
