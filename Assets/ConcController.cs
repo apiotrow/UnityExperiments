@@ -2,16 +2,52 @@
 using System.Collections;
 
 public class ConcController : MonoBehaviour {
-	public GameObject guy1;
-	public GameObject guy2;
+	GameObject activeGuy;
+	MonoBehaviour guyFPSController;
+	GameObject guyCam;
+	SimpleSmoothMouseLook guyMouseLook;
+	Camera guyCamComponent;
 
-	// Use this for initialization
 	void Start () {
+
+
+	}
+
+	void retrieveGuyComponents(string g){
+		activeGuy = GameObject.Find (g);
+		guyFPSController = activeGuy.GetComponent("CharacterMotor") as MonoBehaviour;
 		
+		string guyCamString = g + "Cam";
+		guyCam = GameObject.Find (guyCamString);
+		guyMouseLook = guyCam.GetComponent<SimpleSmoothMouseLook>();;
+		guyCamComponent = guyCam.GetComponent<Camera> ();
+	}
+
+	void enableGuy(string g){
+		retrieveGuyComponents(g);
+
+		guyFPSController.enabled = true;
+		guyMouseLook.enabled = true;
+		guyCamComponent.enabled = true;
+	}
+
+	void disableGuy(string g){
+		retrieveGuyComponents(g);
+		
+		guyFPSController.enabled = false;
+		guyMouseLook.enabled = false;
+		guyCamComponent.enabled = false;
 	}
 	
-	// Update is called once per frame
 	void Update () {
-	
+		if (Input.GetKey (KeyCode.Alpha1)) {
+			enableGuy("Guy1");
+			disableGuy("Guy2");
+		}
+		if (Input.GetKey (KeyCode.Alpha2)) {
+			enableGuy("Guy2");
+			disableGuy("Guy1");
+		}
+
 	}
 }

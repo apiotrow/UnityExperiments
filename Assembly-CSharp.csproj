@@ -70,6 +70,7 @@
      <Compile Include="Assets\Scripts\SmoothFollowCSharp.cs" />
      <Compile Include="Assets\Scripts\ThirdPersonControllerCS.cs" />
      <Compile Include="Assets\Scripts\World.cs" />
+     <Compile Include="Assets\SimpleSmoothMouseLook.cs" />
      <Compile Include="Assets\TheGUI.cs" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
