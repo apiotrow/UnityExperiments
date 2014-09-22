@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ConcBullet.cs" />
      <Compile Include="Assets\ConcController.cs" />
      <Compile Include="Assets\MouseOrbitImproved.cs" />
      <Compile Include="Assets\Person.cs" />
