@@ -11,7 +11,7 @@ public class ConcController : MonoBehaviour {
 	GameObject guyCam;
 	SimpleSmoothMouseLook guyMouseLook;
 	Camera guyCamComponent;
-	int numGuys = 2;
+	int numGuys = 3;
 	GameObject[] guys;
 
 	GameObject concBullet;
@@ -77,6 +77,8 @@ public class ConcController : MonoBehaviour {
 			setActiveGuy ("Guy1");
 		}else if (Input.GetKey (KeyCode.Alpha2)) {
 			setActiveGuy ("Guy2");
+		}else if (Input.GetKey (KeyCode.Alpha3)) {
+			setActiveGuy ("Guy3");
 		}
 
 
