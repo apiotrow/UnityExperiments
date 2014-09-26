@@ -79,6 +79,14 @@ public class ConcController : MonoBehaviour {
 			setActiveGuy ("Guy2");
 		}else if (Input.GetKey (KeyCode.Alpha3)) {
 			setActiveGuy ("Guy3");
+		}else if (Input.GetKeyDown (KeyCode.C)) {
+			if(activeGuyString.Equals("Guy1")){
+				setActiveGuy ("Guy2");
+			}else if(activeGuyString.Equals("Guy2")){
+				setActiveGuy ("Guy3");
+			}else if(activeGuyString.Equals("Guy3")){
+				setActiveGuy ("Guy1");
+			}
 		}
 
 
