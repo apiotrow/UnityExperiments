@@ -43,6 +43,7 @@
 -define:UNITY_PRO_LICENSE
 'Assets/ConcBullet.cs'
 'Assets/ConcController.cs'
+'Assets/FootMove.cs'
 'Assets/MouseOrbitImproved.cs'
 'Assets/Person.cs'
 'Assets/Planet.cs'

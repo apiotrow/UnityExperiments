@@ -48,7 +48,10 @@
   <ItemGroup>
      <Compile Include="Assets\ConcBullet.cs" />
      <Compile Include="Assets\ConcController.cs" />
+     <Compile Include="Assets\DragRigidBodyCSharp.cs" />
+     <Compile Include="Assets\FootMove.cs" />
      <Compile Include="Assets\MouseOrbitImproved.cs" />
+     <Compile Include="Assets\MouseOrbitImprovedRightClickToRotate.cs" />
      <Compile Include="Assets\Person.cs" />
      <Compile Include="Assets\Planet.cs" />
      <Compile Include="Assets\PlanetController.cs" />
