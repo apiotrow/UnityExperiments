@@ -49,6 +49,7 @@
      <Compile Include="Assets\ConcBullet.cs" />
      <Compile Include="Assets\ConcController.cs" />
      <Compile Include="Assets\DragRigidBodyCSharp.cs" />
+     <Compile Include="Assets\FloppyManController.cs" />
      <Compile Include="Assets\FootMove.cs" />
      <Compile Include="Assets\MouseOrbitImproved.cs" />
      <Compile Include="Assets\MouseOrbitImprovedRightClickToRotate.cs" />
