@@ -39,6 +39,7 @@
 'Assets/ConcBullet.cs'
 'Assets/ConcController.cs'
 'Assets/DragRigidBodyCSharp.cs'
+'Assets/FloppyManController.cs'
 'Assets/FootMove.cs'
 'Assets/MouseOrbitImproved.cs'
 'Assets/MouseOrbitImprovedRightClickToRotate.cs'
