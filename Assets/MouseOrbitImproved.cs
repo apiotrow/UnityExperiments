@@ -13,7 +13,7 @@ public class MouseOrbitImproved : MonoBehaviour {
 	public float yMaxLimit = 80f;
 	
 	public float distanceMin = .5f;
-	public float distanceMax = 15f;
+	public float distanceMax = 200f;
 	
 	float x = 0.0f;
 	float y = 0.0f;
