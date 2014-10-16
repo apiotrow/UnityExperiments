@@ -136,6 +136,8 @@ public class PlanetController : MonoBehaviour {
 			Application.LoadLevel (0); 
 		}
 
+
+
 		//Debug.Log (trailPlanet + ", " + planets.Length);
 		for(int i = 0; i < planets.Length; i++){
 			trail = planets[i].GetComponent<TrailRenderer>();
