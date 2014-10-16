@@ -148,7 +148,7 @@ public class PlanetController : MonoBehaviour {
 				trail.endWidth = 0f;
 				if (i == trailPlanet) {
 					//trail.enabled = true;
-					trail.startWidth = planets[i].transform.localScale.x * 3f;
+					trail.startWidth = planets[i].transform.localScale.x * 1f;
 					trail.endWidth = 1f;
 				}//else {
 //					//trail.enabled = false;
@@ -157,7 +157,7 @@ public class PlanetController : MonoBehaviour {
 //				}
 			}else if(PlayerPrefs.GetInt ("trails") == 1){
 				//trail.enabled = true;
-				trail.startWidth = planets[i].transform.localScale.x * 3f;
+				trail.startWidth = planets[i].transform.localScale.x * 1f;
 				trail.endWidth = 1f;
 			}
 
@@ -168,13 +168,15 @@ public class PlanetController : MonoBehaviour {
 			traild.SetColor("_Color", nColor);
 
 
+			planets[i].rigidbody.AddForce((planets[0].transform.position - planets[i].transform.position)
+			                              / (planets[0].rigidbody.mass / 18));
 
-			for(int j = 0; j < planets.Length; j++){
-					if (i != j)
-					planets[i].rigidbody.AddForce((planets[j].transform.position - planets[i].transform.position)
-				                           		   / (planets[j].rigidbody.mass / 18));
-
-			}
+//			for(int j = 0; j < planets.Length; j++){
+//					if (i != j)
+//					planets[i].rigidbody.AddForce((planets[j].transform.position - planets[i].transform.position)
+//				                           		   / (planets[j].rigidbody.mass / 18));
+//
+//			}
 
 		}
 
