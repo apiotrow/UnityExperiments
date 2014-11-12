@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_5_1;UNITY_4_5;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -39,15 +39,72 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>/Users/aaronpiotrowski/folders/Unityp/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>/Users/aaronpiotrowski/folders/Unityp/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\MouseOrbit.js" />
+     <Compile Include="Assets\IndieEffects\Classes\AA.js" />
+     <Compile Include="Assets\IndieEffects\Classes\Bloom.js" />
+     <Compile Include="Assets\IndieEffects\Classes\Blur.js" />
+     <Compile Include="Assets\IndieEffects\Classes\ChromaticAbberation.js" />
+     <Compile Include="Assets\IndieEffects\Classes\ColorBalance.js" />
+     <Compile Include="Assets\IndieEffects\Classes\DepthOfField.js" />
+     <Compile Include="Assets\IndieEffects\Classes\FisheyeEffect.js" />
+     <Compile Include="Assets\IndieEffects\Classes\IndieEffects.js" />
+     <Compile Include="Assets\IndieEffects\Classes\MotionblurModern\motionBlurModern.js" />
+     <Compile Include="Assets\IndieEffects\Classes\Negative.js" />
+     <Compile Include="Assets\IndieEffects\Classes\Outline.js" />
+     <Compile Include="Assets\IndieEffects\Classes\SSAO_C5100.js" />
+     <Compile Include="Assets\IndieEffects\Classes\VignetteBlur.js" />
+     <None Include="Assets\IndieEffects\ShaderDir\Normal\Chromabberation.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Effects\glareFX\!readme.txt" />
+     <None Include="Assets\PostProcesses2.0\Shafts\AdditiveRadialBlur_20.shader" />
+     <None Include="Assets\IndieEffects\ShaderDir\Normal\ColorBalance.shader" />
+     <None Include="Assets\PostProcesses2.0\Shafts\AdditiveRadialBlur_10.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\IndieEffects\AA Shaders\FXAA3Console.shader" />
+     <None Include="Assets\IndieEffects\ShaderDir\Internal\_NormalsDepth.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\IndieEffects\ShaderDir\DNBased\DOFShader - BoxBlur.shader" />
+     <None Include="Assets\IndieEffects\ShaderDir\Normal\FisheyeShader.shader" />
+     <None Include="Assets\IndieEffects\ShaderDir\Normal\Outline.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\IndieEffects\ShaderDir\Normal\BlurCurve.shader" />
+     <None Include="Assets\PostProcesses2.0\Bloom\AdditiveBlur.shader" />
+     <None Include="Assets\IndieEffects\ShaderDir\Normal\BlurShader - Simple.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\IndieEffects\AA Shaders\FXAA2.shader" />
+     <None Include="Assets\IndieEffects\ShaderDir\DNBased\MotionBlurModern.shader" />
+     <None Include="Assets\IndieEffects\ShaderDir\Normal\StarBloom.shader" />
+     <None Include="Assets\IndieEffects\AA Shaders\FXAAPreset2.shader" />
+     <None Include="Assets\IndieEffects\ShaderDir\Normal\RadialBlur.shader" />
+     <None Include="Assets\IndieEffects\ShaderDir\DNBased\0tacunSSAO.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\IndieEffects\ShaderDir\Normal\Vignette.shader" />
+     <None Include="Assets\IndieEffects\ShaderDir\Normal\MotionBlurBasic.shader" />
+     <None Include="Assets\Effects\glareFX\Shaders\glareBlur.shader" />
+     <None Include="Assets\IndieEffects\AA Shaders\FXAAPreset3.shader" />
+     <None Include="Assets\Effects\glareFX\Shaders\glareFXClassic.shader" />
+     <None Include="Assets\IndieEffects\AA Shaders\SSAA.shader" />
+     <None Include="Assets\IndieEffects\ShaderDir\Normal\negative.shader" />
+     <None Include="Assets\IndieEffects\ShaderDir\Normal\Grass.shader" />
+     <None Include="Assets\IndieEffects\ShaderDir\DNBased\Bunell Disk SSAO.shader" />
+     <None Include="Assets\IndieEffects\ShaderDir\DNBased\DOFShader.shader" />
+     <None Include="Assets\IndieEffects\ShaderDir\Normal\IndieRadialBlur.shader" />
+     <None Include="Assets\Effects\glareFX\Shaders\glareFXChromatic.shader" />
+     <None Include="Assets\PostProcesses2.0\Shafts\AdditiveRadialBlur_30.shader" />
+     <None Include="Assets\IndieEffects\ShaderDir\Normal\RadialBlurVF.shader" />
+     <None Include="Assets\Effects\glareFX\Shaders\glareFXCheapSM20.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\PostProcesses2.0\Shafts\AdditiveRadialBlur_40.shader" />
+     <None Include="Assets\IndieEffects\AA Shaders\DLAA.shader" />
+     <None Include="Assets\IndieEffects\AA Shaders\NFAA.shader" />
+     <None Include="Assets\IndieEffects\ShaderDir\Normal\ImageBloom.shader" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">

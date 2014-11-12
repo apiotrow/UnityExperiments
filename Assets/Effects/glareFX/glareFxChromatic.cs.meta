@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: af130885d08032b469da60fddd7879a5
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - lensDirt: {fileID: 2800000, guid: 3ee8c8132a4d8e44587a5750ca4ab808, type: 3}
+  - shader: {fileID: 4800000, guid: f79f753d554384742becffaa88f36aa1, type: 3}
+  - blurShader: {fileID: 4800000, guid: 57e6deea7c2924e22a5138e2b70bb4dc, type: 3}
+  - compositeShader: {fileID: 4800000, guid: 96ca71e39c7b6fb4f9bec2c5bf331349, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
