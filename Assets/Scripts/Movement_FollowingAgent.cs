@@ -55,7 +55,7 @@ public class Movement_FollowingAgent : MonoBehaviour
 			}
 		} else {
 			if (collision.gameObject.tag == "FollowingAgent") {
-				if (collision.gameObject.GetComponent<Movement_FollowingAgent> ().speed < (speed)) {
+				if (collision.gameObject.GetComponent<Movement_FollowingAgent> ().speed > (speed)) {
 					leadingAgent = collision.gameObject.transform;
 					debugLineColor.r += colorAdder;
 					//Debug.Log (debugLineColor.r);
