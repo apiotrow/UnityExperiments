@@ -39,7 +39,7 @@ public class ManAccel : MonoBehaviour {
 		float yAccelabs = Mathf.Abs(yAccel);
 		float zAccelabs = Mathf.Abs(zAccel);
 
-		if (xAccelabs > 0.5 || zAccelabs > 0.5) {
+		if (xAccelabs > 2 || zAccelabs > 2) {
 			transform.Translate (xAccel, 0, zAccel);
 		}
 	}

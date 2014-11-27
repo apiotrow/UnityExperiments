@@ -65,6 +65,7 @@
      <Compile Include="Assets\PostProcesses2.0\Bloom\Bloom.cs" />
      <Compile Include="Assets\PostProcesses2.0\Bloom\BloomObject.cs" />
      <Compile Include="Assets\PostProcesses2.0\Shafts\Shafts.cs" />
+     <Compile Include="Assets\Scripts\BeesGUI.cs" />
      <Compile Include="Assets\Scripts\BlockPlaceExample.cs" />
      <Compile Include="Assets\Scripts\Chunk.cs" />
      <Compile Include="Assets\Scripts\ColliderExample.cs" />

@@ -29,6 +29,10 @@ public class Movement_FollowingAgent : MonoBehaviour
 
 	void Update ()
 	{
+		if (Input.GetKeyDown (KeyCode.R)) {
+			Application.LoadLevel (0); 
+		}
+
 		agentPos = transform.position;
 		destination = leadingAgent.position;
 		dir = destination - agentPos;
@@ -51,7 +55,7 @@ public class Movement_FollowingAgent : MonoBehaviour
 			}
 		} else {
 			if (collision.gameObject.tag == "FollowingAgent") {
-				if (collision.gameObject.GetComponent<Movement_FollowingAgent> ().speed < speed) {
+				if (collision.gameObject.GetComponent<Movement_FollowingAgent> ().speed < (speed)) {
 					leadingAgent = collision.gameObject.transform;
 					debugLineColor.r += colorAdder;
 					//Debug.Log (debugLineColor.r);
