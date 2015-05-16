@@ -80,8 +80,8 @@ public class DragRigidBodyCSharp : MonoBehaviour
 	
 	Camera FindCamera() 
 	{ 
-		if (camera) 
-			return camera; 
+		if (GetComponent<Camera>()) 
+			return GetComponent<Camera>(); 
 		else 
 			return Camera.main; 
 	} 

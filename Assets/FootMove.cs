@@ -12,6 +12,6 @@ public class FootMove : MonoBehaviour {
 	void Update () {
 		Vector3 bob = new Vector3 (10, 0, 10);
 
-			rigidbody.AddForce (bob * 2f);
+			GetComponent<Rigidbody>().AddForce (bob * 2f);
 	}
 }

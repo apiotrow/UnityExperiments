@@ -17,8 +17,8 @@ public class Movement_FollowingAgent : MonoBehaviour
 	{
 		speed = Random.Range (1, 100);
 		usingMating = false;
-		renderer.enabled = true;
-		renderer.material.color = Color.yellow;
+		GetComponent<Renderer>().enabled = true;
+		GetComponent<Renderer>().material.color = Color.yellow;
 		colorAdder = 0.01f;
 
 		agentPos = transform.position;

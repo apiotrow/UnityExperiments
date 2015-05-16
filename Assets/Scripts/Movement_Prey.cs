@@ -135,7 +135,7 @@ public class Movement_Prey : MonoBehaviour
 				Collider[] thingsThere = Physics.OverlapSphere (destination, sphereCheckRadius);
 				int p = 0;
 				while (agentThere == false && p < thingsThere.Length) {
-					if (thingsThere [p].collider.gameObject.tag == "FollowingAgent") {
+					if (thingsThere [p].GetComponent<Collider>().gameObject.tag == "FollowingAgent") {
 						agentThere = true;
 					}
 					p++;

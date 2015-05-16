@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		Vector3 forward = Camera.mainCamera.transform.TransformDirection(Vector3.forward);
+		Vector3 forward = Camera.main.transform.TransformDirection(Vector3.forward);
 		forward.y = 0;
 		forward = forward.normalized;
 		Vector3 right = new Vector3(forward.z, 0, -forward.x);
@@ -30,12 +30,12 @@ public class PlayerController : MonoBehaviour {
 		//Debug.DrawLine (Camera.main.transform.position, transform.position);
 
 		if ((Input.GetKey (KeyCode.Space))) {
-			rigidbody.AddForce (globalUp * 50);
+			GetComponent<Rigidbody>().AddForce (globalUp * 50);
 		}
 
 		if (Input.GetKey (KeyCode.W)) {
 			//transform.RotateAround (transform.position, transform.right, Time.deltaTime * 40);
-			rigidbody.AddForce (moveDirection * 50);
+			GetComponent<Rigidbody>().AddForce (moveDirection * 50);
 
 		}
 		if (Input.GetKey (KeyCode.S)) {

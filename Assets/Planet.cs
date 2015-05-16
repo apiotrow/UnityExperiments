@@ -16,7 +16,7 @@ public class Planet : MonoBehaviour {
 //		personPos = person.transform.position;
 //		distToPerson = Vector3.Distance (personPos, personPos);
 
-		planetMass = rigidbody.mass;
+		planetMass = GetComponent<Rigidbody>().mass;
 	}
 	
 

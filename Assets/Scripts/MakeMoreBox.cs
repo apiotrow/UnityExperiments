@@ -64,8 +64,8 @@ public class MakeMoreBox : MonoBehaviour
 			float g = Random.Range (0.1f, 1);
 			float b = Random.Range (0.1f, 1);
 			start = new Color (r, g, b);
-			renderer.enabled = true;
-			renderer.material.color = start;
+			GetComponent<Renderer>().enabled = true;
+			GetComponent<Renderer>().material.color = start;
 		//} else {
 		//	old.g += 0.001f;
 		//	start = old;
@@ -160,7 +160,7 @@ public class MakeMoreBox : MonoBehaviour
 	void OnCollisionEnter (Collision collision)
 	{
 		if (collision.gameObject.tag == "Cube" || collision.gameObject.tag == "Ground") {
-			Destroy(rigidbody);
+			Destroy(GetComponent<Rigidbody>());
 			moving = false;
 
 

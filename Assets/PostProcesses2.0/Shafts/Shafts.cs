@@ -38,7 +38,7 @@ public class Shafts : MonoBehaviour {
 			for(int y = 0; y<Height; y++)
 			{
 				RaycastHit Hit;
-				if(!Physics.Raycast(camera.ScreenPointToRay(new Vector3((x * new Vector2(Screen.width, Screen.height).magnitude) / Quality, (y * new Vector2(Screen.width, Screen.height).magnitude) / Quality, 0)), out Hit, Mathf.Infinity, RayMask) && Vector3.Dot(transform.forward, Sun.forward) < 0)
+				if(!Physics.Raycast(GetComponent<Camera>().ScreenPointToRay(new Vector3((x * new Vector2(Screen.width, Screen.height).magnitude) / Quality, (y * new Vector2(Screen.width, Screen.height).magnitude) / Quality, 0)), out Hit, Mathf.Infinity, RayMask) && Vector3.Dot(transform.forward, Sun.forward) < 0)
 				{
 					
 					DTMap.SetPixel(x, y, Color.Lerp(DTMap.GetPixel(x, y), Color.white, Smoothing*Time.deltaTime));
@@ -52,7 +52,7 @@ public class Shafts : MonoBehaviour {
 			
 		}
 		
-		Vector3 p = camera.WorldToScreenPoint(transform.position - Sun.forward);
+		Vector3 p = GetComponent<Camera>().WorldToScreenPoint(transform.position - Sun.forward);
 		
 		BloomMaterial.SetFloat("_CenX", p.x / Screen.width);
 		BloomMaterial.SetFloat("_CenY", p.y / Screen.height);

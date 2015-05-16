@@ -38,7 +38,7 @@ public class Bloom : MonoBehaviour {
 			for(int y = 0; y<Height; y++)
 			{
 				RaycastHit Hit;
-				if(!Physics.Raycast(camera.ScreenPointToRay(new Vector3((x * new Vector2(Screen.width, Screen.height).magnitude) / Quality, (y * new Vector2(Screen.width, Screen.height).magnitude) / Quality, 0)), out Hit, Mathf.Infinity, RayMask))
+				if(!Physics.Raycast(GetComponent<Camera>().ScreenPointToRay(new Vector3((x * new Vector2(Screen.width, Screen.height).magnitude) / Quality, (y * new Vector2(Screen.width, Screen.height).magnitude) / Quality, 0)), out Hit, Mathf.Infinity, RayMask))
 				{
 						
 					DTMap.SetPixel(x, y, Color.Lerp(DTMap.GetPixel(x, y), SkyColor, Smoothing*Time.deltaTime));

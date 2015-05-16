@@ -42,6 +42,7 @@ public class Plate : MonoBehaviour
 //				transform.eulerAngles = end;
 //			} else {
 				transform.RotateAround (transform.position, Vector3.forward, Time.deltaTime * dist);
+				
 //			}
 					
 		} else {
@@ -72,7 +73,7 @@ public class Plate : MonoBehaviour
 //			}
 		}
 
-		Vector3 v = ball.rigidbody.velocity;
+		Vector3 v = ball.GetComponent<Rigidbody>().velocity;
 		v.y = -10f;
 		//ball.rigidbody.velocity = v;
 

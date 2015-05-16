@@ -37,7 +37,7 @@ public class PlanetController : MonoBehaviour {
 		planets = new Planet[numPlanets];
 
 		planets[0] = GameObject.Find ("Sun").GetComponent ("Planet") as Planet;
-		planets[0].renderer.material.color = Color.yellow;
+		planets[0].GetComponent<Renderer>().material.color = Color.yellow;
 
 //		planets[1] = GameObject.Find ("Sun2").GetComponent ("Planet") as Planet;
 //		planets[1].renderer.material.color = Color.yellow;
@@ -55,10 +55,10 @@ public class PlanetController : MonoBehaviour {
 
 		if (planCollide)
 			//planets [1].collider.isTrigger = false;
-			sourcePlanet.collider.isTrigger = false;
+			sourcePlanet.GetComponent<Collider>().isTrigger = false;
 		else
 			//planets [1].collider.isTrigger = true;
-			sourcePlanet.collider.isTrigger = true;
+			sourcePlanet.GetComponent<Collider>().isTrigger = true;
 
 //		if (PlayerPrefs.GetInt ("trails") == 0)
 //			trail.enabled = false;
@@ -89,15 +89,15 @@ public class PlanetController : MonoBehaviour {
 			planets[i] = newplanet;
 
 			if (planCollide)
-				planets [i].collider.isTrigger = false;
+				planets [i].GetComponent<Collider>().isTrigger = false;
 			else
-				planets [i].collider.isTrigger = true;
+				planets [i].GetComponent<Collider>().isTrigger = true;
 
 			//planets[i].rigidbody.mass = Random.Range (PlayerPrefs.GetFloat ("massMin"), PlayerPrefs.GetFloat ("massMax"));
-			planets[i].rigidbody.mass = Random.Range (massMin, massMax);
+			planets[i].GetComponent<Rigidbody>().mass = Random.Range (massMin, massMax);
 
 			//planets[i].renderer.material.color = new Color(Random.Range (0f,1f),Random.Range (0f,1f),Random.Range (0f,1f));
-			planets[i].renderer.material.color = 
+			planets[i].GetComponent<Renderer>().material.color = 
 				ColorFromHSV(Random.Range(0.0f, 360f), 1f, Random.Range(1f, 5f), 1f);
 
 			float randScale = Random.Range (sizeMin, sizeMax);
@@ -110,10 +110,10 @@ public class PlanetController : MonoBehaviour {
 			
 			//planets[i].rigidbody.AddForce (dir * 9000);
 
-			planets[i].rigidbody.velocity = (dir * Random.Range (speedMin, speedMax));
+			planets[i].GetComponent<Rigidbody>().velocity = (dir * Random.Range (speedMin, speedMax));
 		}
 
-		sourcePlanet.renderer.enabled = false;
+		sourcePlanet.GetComponent<Renderer>().enabled = false;
 
 	}
 	
@@ -161,15 +161,15 @@ public class PlanetController : MonoBehaviour {
 				trail.endWidth = 1f;
 			}
 
-			Color nColor = planets[i].renderer.material.color;
+			Color nColor = planets[i].GetComponent<Renderer>().material.color;
 			//nColor = ColorFromHSV(Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), 1f);
 			//ColorToHSV(nColor, Random.Range(0.0f, 1.0f),1.0f, 1.0f);
 			Material traild = planets[i].GetComponent<TrailRenderer>().material;
 			traild.SetColor("_Color", nColor);
 
 
-			planets[i].rigidbody.AddForce((planets[0].transform.position - planets[i].transform.position)
-			                              / (planets[0].rigidbody.mass / 18));
+			planets[i].GetComponent<Rigidbody>().AddForce((planets[0].transform.position - planets[i].transform.position)
+			                              / (planets[0].GetComponent<Rigidbody>().mass / 18));
 
 //			for(int j = 0; j < planets.Length; j++){
 //					if (i != j)
